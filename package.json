@@ -10,14 +10,15 @@
 		"Other"
 	],
 	"activationEvents": [
-		"onCommand:extension.helloWorld"
+		"onLanguage:markdown",
+		"onCommand:extension.createDecisionTableMarkdown"
 	],
 	"main": "./out/extension.js",
 	"contributes": {
 		"commands": [
 			{
-				"command": "extension.helloWorld",
-				"title": "Hello World"
+				"command": "extension.createDecisionTableMarkdown",
+				"title": "Create Decision Table Markdown"
 			}
 		]
 	},
